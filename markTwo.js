@@ -20,7 +20,7 @@ function KBC(question,answer){
         console.log(chalk.white(j+".",option[i][k]));
         j++ 
     }
-    console.log("-------------");
+    console.log("----------------");
     var userAnswer=readlineSync.questionInt(chalk.grey("Enter your answer: "));
     console.log("You entered " + userAnswer);
     if (userAnswer === answer){
